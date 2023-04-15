@@ -1,0 +1,70 @@
+body{
+background: linear-gradient(90deg,#00BFFF,#00FF00);
+
+
+
+}
+
+
+.login{
+   background-color: white; 
+   width:400px;
+   display: flex;
+   align-items: center;
+   
+   margin: 0 auto;
+flex-direction: column;
+padding-top: 50px;
+margin-top: 10%;
+
+}
+.flex{
+
+display: flex;
+
+align-items: center;
+gap: 10px;
+}
+.flex-direcao{
+   flex-direction: column;
+}
+
+.borda{
+border: 1px solid plum ;
+
+
+
+}
+.roxo{
+background: rgb(235, 168, 235);
+
+
+}
+img{
+width: 30px;
+
+
+
+}
+input{
+width: 150%;
+
+
+
+}
+button{
+   width: 150%;
+background-color:plum;
+border: 1px solid plum;
+}
+
+
+
+.boxc{
+margin: 0;
+
+}
+.check{
+
+
+}
