@@ -16,7 +16,7 @@ background: linear-gradient(90deg,#00BFFF,#00FF00);
 flex-direction: column;
 padding-top: 50px;
 margin-top: 10%;
-
+justify-content: left;
 }
 .flex{
 
@@ -24,6 +24,7 @@ display: flex;
 
 align-items: center;
 gap: 10px;
+justify-content: left;
 }
 .flex-direcao{
    flex-direction: column;
@@ -35,6 +36,18 @@ border: 1px solid plum ;
 
 
 }
+.email,.senha{
+border: 1px solid rgb(59, 49, 49);
+height: 35px;
+padding: 10px;
+
+}
+.entre{
+height: 35px;
+
+
+}
+
 .roxo{
 background: rgb(235, 168, 235);
 
@@ -61,10 +74,24 @@ border: 1px solid plum;
 
 
 .boxc{
-margin: 0;
 
+display:flex;
+ justify-content: left;
 }
 .check{
+
+width: 10px;
+
+
+}
+
+.check-input{
+
+width: auto;
+
+}
+.social{
+margin-bottom: 20px;
 
 
 }
